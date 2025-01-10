@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Tejasvat R</title>
+    </head>
+    <body>
+        <h1>Create Your Custom Form</h1>
+        <form action="#">
+            <fieldset>
+                <legend>Form Settings</legend>
+                <label for="form-name">Form Name:</label>
+                <input type="text" id="form-name" placeholder="Enter Form Name" required><br>
+                <label for="num-fields">Number of Fields:</label>
+
+                <input type="number" id="num-fields" placeholder="Enter number of fields" min="1" required><br>
+                <label for="field-type">Field Type:</label>
+                <select id="field-type" required>
+                    <option value="Text">Text</option>
+
+                    <option value="Email">Email</option>
+                    <option value="Number">Number</option>
+                    <option value="Date">Date</option>
+                </select><br>
+            </fieldset>
+            <fieldset>
+                <legend>Form Fields</legend>
+                <label for="input-1">Field 1:</label>
+                <input type="text" id="input-1" name="input-1" placeholder="Enter text" required><br>
+                <label for="input-2">Field 2:</label>
+                <input type="email" id="input-2" name="input-2" placeholder="Enter email" required><br>
+                <label for="input-3">Field 3:</label>
+
+                <input type="number" id="input-3" name="input-3" placeholder="Enter number" min="1" required><br>
+                <label for="input-4">Field 4:</label>
+                <input type="date" id="input-4" name="input-4" required><br>
+            </fieldset>
+
+            <button type="submit">Submit Form</button>
+        </form>
+    </body>
+</html>
+
+
