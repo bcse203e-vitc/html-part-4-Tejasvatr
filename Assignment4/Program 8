@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Tejasvat R</title>
+    </head>
+    <body>
+        <h1>Online Quiz</h1>
+        <form action="/quiz" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <h2>Question 1:</h2>
+            <p>What is the capital of France?</p>
+            <label><input type="radio" name="q1" value="Paris" required> Paris</label><br>
+            <label><input type="radio" name="q1" value="London"> London</label><br>
+            <label><input type="radio" name="q1" value="Berlin"> Berlin</label><br>
+
+            <h2>Question 2:</h2>
+            <p>Which of the following are programming languages? </p>
+            <label><input type="checkbox" name="q2" value="Java"> Java</label><br>
+            <label><input type="checkbox" name="q2" value="Python"> Python</label><br>
+            <label><input type="checkbox" name="q2" value="HTML"> HTML</label><br>
+            <label><input type="checkbox" name="q2" value="Excel"> Excel</label><br><br>
+
+            <h2>Remaining Time:</h2>
+            <input type="text" value="Time Remaining: 10 minutes" disabled><br><br>
+
+            <input type="submit" value="Submit Quiz">
+        </form>
+    </body>
+</html>
+
+
