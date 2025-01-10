@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Title</title>
+    </head>
+    <body>
+        <h1>Job Application - Page 3: Work Experience</h1>
+        <form action="/submit" method="post" enctype="multipart/form-data">
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" name="company" required><br><br>
+
+            <label for="designation">Designation:</label>
+            <input type="text" id="designation" name="designation" required><br><br>
+
+            <label for="duration">Duration:</label>
+            <input type="text" id="duration" name="duration" required><br><br>
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" required><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="button" value="Previous" onclick="window.location.href='page3_2.html';">
+        </form>
+    </body>
+</html>
+
+
