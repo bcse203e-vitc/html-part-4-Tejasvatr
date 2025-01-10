@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Tejasvat R</title>
+    </head>
+    <body>
+        <h1>Hotel Room Booking</h1>
+        <form action="/booking" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="contact">Contact Info:</label>
+            <input type="text" id="contact" name="contact" required><br>
+            <label for="checki">Check-in Date:</label>
+            <input type="date" id="checki" name="checki" required><br>
+            <label for="checko">Check-out Date:</label>
+            <input type="date" id="checko" name="checko" required><br>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required><br>
+
+            <label for="roomType">Room Type:</label>
+            <select id="roomType" name="roomType" required>
+                <option>Single</option>
+                <option>Double</option>
+                <option>Suite</option>
+            </select><br><br>
+
+            <h2>Additional Services</h2>
+            <label><input type="checkbox" name="breakfast" value="Yes"> Breakfast</label><br>
+            <label><input type="checkbox" name="airportPickup" value="Yes"> Airport Pickup</label><br><br>
+
+            <input type="submit" value="Book Room">
+        </form>
+    </body>
+</html>
+
+
