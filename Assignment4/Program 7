@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Tejasvat R</title>
+    </head>
+    <body>
+        <h1>Travel Booking</h1>
+        <form action="/submit-booking" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="contact">Contact:</label>
+            <input type="text" id="contact" name="contact" required><br><br>
+
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" required>
+                <option>Maduravoyal</option>
+                <option>Vandalur</option>
+                <option>Guindy</option>
+            </select><br><br>
+
+            <label for="dates">Dates:</label>
+            <input type="date" id="dates" name="dates" required><br><br>
+
+            <label for="travelers">Travelers:</label>
+            <input type="number" id="travelers" name="travelers" min="1" required><br><br>
+
+            <label><input type="radio" name="class" value="Economy"> Economy</label>
+            <label><input type="radio" name="class" value="Business"> Business</label><br><br>
+
+            <label><input type="checkbox" name="insurance" value="Yes"> Insurance</label><br><br>
+
+            <input type="submit" value="Book Now">
+        </form>
+    </body>
+</html>
+
+
