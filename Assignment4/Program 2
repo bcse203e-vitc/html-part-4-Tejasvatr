@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Tejasvat R</title>
+    </head>
+    <body>
+        <h1>Registration form</h1>
+        <form action="/register" method = "post">
+            <label for="username">Username</label><br>
+            <input type="text" id ="username" name="username" required><br><br>
+            
+            <label for="email">Email</label><br>
+            <input type="email" id ="email" name="email" required><br><br>
+
+            <label for="number">Number</label><br>
+            <input type="text" id ="number" name="number" required><br><br>
+            <label for="male">Male</label><br>
+            <input type="radio" id ="male" name="gender" ><br><br>
+            <label for="female">Female</label><br>
+            <input type="radio" id ="female" name="gender" ><br><br>
+
+            <label for="age">Age Group</label><br>
+            <select name="age" id ="age">
+            <option value="18"><18</option>
+            <option value="18-21">18-21</option>
+            <option value="21+">21+</option>
+            </select><br><br>
+
+            <label for="topic1">Football</label><br>
+            <input type="checkbox" id ="topic1" name="topic1" ><br><br>
+            <label for="topic2">Basketball</label><br>
+            <input type="checkbox" id ="topic2" name="topic2" ><br><br>
+            <label for="topic3">Baseball</label><br>
+            <input type="checkbox" id ="topic3" name="topic3" ><br><br>
+
+            <label for="textarea1">Comments</label><br>
+            <textarea type="textarea" cols="30" rows="5"  id ="text12" name="text12"></textarea><br><br>
+            
+            <button type="register">Submit</button><br>
+            
+        </form>
+    </body>
+</html>
